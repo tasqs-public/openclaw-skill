@@ -1,0 +1,5 @@
+# Not part of the installed skill — the agent needs SKILL.md and scripts/ only.
+test/
+.git/
+.github/
+node_modules/
