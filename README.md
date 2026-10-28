@@ -10,7 +10,7 @@ openclaw skills install tasqs
 
 ## Setup
 
-1. API access is part of the Tasqs **Power** plan.
+1. API access is part of the Tasqs **Power User** plan.
 2. In Tasqs, open **Profile → API Access → Create token**. Tick **Allow writes** so the agent can add and change tasks (leave it unticked for a read-only connection). Copy the token — it is shown once.
 3. Give it to OpenClaw as `TASQS_API_TOKEN`, in `~/.openclaw/openclaw.json`:
    ```json5
